@@ -1,0 +1,1 @@
+QR codes will be saved in this folder. 
