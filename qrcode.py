@@ -6,7 +6,7 @@ qr = qrcode.QRCode(
   box_size=10,
   border=4,
 )
-qr.add_data("https://www.youtube.com/channel/UCDiSrTPJ4xaw8BP3nQj7c4Q")
+qr.add_data("https://www.youtube.com/channel/UCB8jn0pSob5wIeJ5HBU7Ejw")
 
 img = qr.make_image(fill_color="black", back_color="white")
 img.save("data/qrcode.jpg")
